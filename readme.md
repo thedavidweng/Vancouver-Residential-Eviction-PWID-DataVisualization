@@ -37,6 +37,3 @@ The visualization follows Tamara Munzner's visual encoding theory and task abstr
 
 ## License
 This project is open source and available for educational and research purposes.
-
-## Last Updated
-March 31, 2025
