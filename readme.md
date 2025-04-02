@@ -26,8 +26,8 @@ The visualization follows Tamara Munzner's visual encoding theory and task abstr
 - Responsive design for various screen sizes
 
 ## Authors
-- David WENG
 - Chelsea YU
+- David WENG
 - Manyi CHEN
 
 ## References
