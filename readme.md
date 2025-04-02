@@ -26,9 +26,9 @@ The visualization follows Tamara Munzner's visual encoding theory and task abstr
 - Responsive design for various screen sizes
 
 ## Authors
-- Manyi CHEN
 - David WENG
 - Chelsea YU
+- Manyi CHEN
 
 ## References
 - Kennedy, M. C., McNeil, R., Milloy, M.-J., Dong, H., Kerr, T., & Hayashi, K. (2017). Residential eviction and exposure to violence among people who inject drugs in Vancouver, Canada. *International Journal of Drug Policy, 41*, 59–64. https://doi.org/10.1016/j.drugpo.2016.12.017
