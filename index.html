@@ -14,10 +14,10 @@
         body {
             font-family: 'Inter', sans-serif;
         }
-        /* 强调文本的自定义样式 - 改为深红色 */
+        /* 强调文本的自定义样式 - 改为深蓝色 */
         .emphasis-text {
             font-weight: 600;
-            color: #b91c1c; /* Tailwind red-700 */
+            color: #1e40af; /* Tailwind blue-800 替代 red-700 */
         }
         /* 章节标题样式 */
         h2 {
@@ -95,12 +95,32 @@
             <p class="text-xl text-gray-700">A harsh reality for people who inject drugs in Vancouver, Canada</p>
         </header>
 
+        <!-- Vancouver Skyline Image -->
+        <div class="mb-10 rounded-xl overflow-hidden shadow-lg border border-gray-200">
+            <figure class="relative">
+                <img 
+                    src="https://i.cbc.ca/1.5171810.1661114769!/fileImage/httpImage/image.jpg_gen/derivatives/16x9_1180/vancouver-skyline-stock-generic.jpg?im=Resize%3D780" 
+                    alt="Vancouver skyline showing downtown buildings and mountains in the background" 
+                    class="w-full h-auto object-cover"
+                />
+                <figcaption class="text-xs text-gray-500 p-3 bg-gray-50 border-t border-gray-200">
+                    Vancouver city council approves more compensation for 'renovictions' 
+                    <a href="https://amp.cbc.ca/news/canada/british-columbia/vancouver-renter-protection-and-support-1.5171792" 
+                       class="text-blue-600 hover:underline" 
+                       target="_blank" 
+                       rel="noopener noreferrer">
+                        by Rafferty Baker/CBC
+                    </a>
+                </figcaption>
+            </figure>
+        </div>
+
         <main class="bg-white p-6 md:p-10 rounded-xl shadow-xl border border-gray-200">
 
             <section class="mb-10">
-                 <blockquote class="border-l-4 border-red-600 bg-red-50 p-4 rounded-r-lg italic text-lg text-red-900 mb-6 shadow-sm">
+                 <blockquote class="border-l-4 border-blue-600 bg-blue-50 p-4 rounded-r-lg italic text-lg text-blue-900 mb-6 shadow-sm">
                     <span class="flex items-center">
-                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-quote mr-2 text-red-700 flex-shrink-0"><path d="M3 21c3 0 7-1 7-8V5c0-1.25-.756-2.017-2-2H4c-1.25 0-2 .75-2 1.972V11c0 1.25.75 2 2 2 1 0 1 0 1 1v1c0 1-1 2-2 2s-1 .008-1 1.031V20c0 1 0 1 1 1z"/><path d="M15 21c3 0 7-1 7-8V5c0-1.25-.757-2.017-2-2h-4c-1.25 0-2 .75-2 1.972V11c0 1.25.75 2 2 2h.75c0 2.25.25 4-1.75 4v1c0 1-1 2-2 2s-1 .008-1 1.031V20c0 1 0 1 1 1z"/></svg>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-quote mr-2 text-blue-700 flex-shrink-0"><path d="M3 21c3 0 7-1 7-8V5c0-1.25-.756-2.017-2-2H4c-1.25 0-2 .75-2 1.972V11c0 1.25.75 2 2 2 1 0 1 0 1 1v1c0 1-1 2-2 2s-1 .008-1 1.031V20c0 1 0 1 1 1z"/><path d="M15 21c3 0 7-1 7-8V5c0-1.25-.757-2.017-2-2h-4c-1.25 0-2 .75-2 1.972V11c0 1.25.75 2 2 2h.75c0 2.25.25 4-1.75 4v1c0 1-1 2-2 2s-1 .008-1 1.031V20c0 1 0 1 1 1z"/></svg>
                         "Eviction doesn't just precede homelessness—it amplifies the risk of violence."
                     </span>
                 </blockquote>
@@ -114,17 +134,17 @@
                 <p class="mb-6 text-lg text-gray-700">
                     The data starkly reveals the increased danger faced by those experiencing eviction:
                 </p>
-                <div class="bg-gradient-to-r from-red-50 to-rose-50 border border-red-200 p-6 rounded-lg mb-8 shadow-md">
-                     <p class="text-center text-xl font-semibold text-red-800 mb-5">
+                <div class="bg-gradient-to-r from-blue-50 to-indigo-50 border border-blue-200 p-6 rounded-lg mb-8 shadow-md">
+                     <p class="text-center text-xl font-semibold text-blue-800 mb-5">
                         Individuals who experienced residential eviction are significantly more likely to experience violence:
                     </p>
                     <div class="flex flex-col md:flex-row justify-around items-center gap-6">
                          <div class="text-center p-5 bg-white rounded-lg shadow-md border border-gray-100 hover-card flex-1">
-                            <span class="block text-4xl font-bold text-red-700 mb-1">1.95x</span>
+                            <span class="block text-4xl font-bold text-blue-700 mb-1">1.95x</span>
                             <span class="block text-gray-600 text-sm"><span data-lucide="user" class="inline-block w-4 h-4 mr-1"></span>Increased risk for Males</span>
                         </div>
                          <div class="text-center p-5 bg-white rounded-lg shadow-md border border-gray-100 hover-card flex-1">
-                            <span class="block text-4xl font-bold text-red-700 mb-1">2.09x</span>
+                            <span class="block text-4xl font-bold text-blue-700 mb-1">2.09x</span>
                            <span class="block text-gray-600 text-sm"><span data-lucide="user" class="inline-block w-4 h-4 mr-1"></span>Increased risk for Females</span>
                         </div>
                     </div>
@@ -132,11 +152,11 @@
 
                 <ul class="list-none space-y-4 text-gray-700">
                     <li class="flex items-start">
-                        <span data-lucide="swords" class="mr-3 mt-1 text-red-600 flex-shrink-0"></span>
+                        <span data-lucide="swords" class="mr-3 mt-1 text-blue-600 flex-shrink-0"></span>
                         <div><span class="font-semibold text-gray-900">Multiple Forms of Violence:</span> Recorded violence includes physical assault and sexual assault, both of which can have severe, long-term impacts on survivors' physical and psychological well-being.</div>
                     </li>
                     <li class="flex items-start">
-                         <span data-lucide="shield-alert" class="mr-3 mt-1 text-yellow-600 flex-shrink-0"></span>
+                         <span data-lucide="shield-alert" class="mr-3 mt-1 text-indigo-600 flex-shrink-0"></span>
                         <div><span class="font-semibold text-gray-900">High Vulnerability and Compounding Factors:</span> Individuals facing eviction often endure compounded challenges such as extreme poverty, entanglement with illicit drug markets or informal economies, and lack of social support—further heightening their risk of violence.</div>
                     </li>
                 </ul>
@@ -188,7 +208,7 @@
                 <h2 class="text-xl font-semibold mb-3 !border-b-0"><span data-lucide="alert-triangle"></span>Why It Matters</h2>
                 <div class="grid md:grid-cols-2 gap-6">
                     <div class="bg-gray-100 p-5 rounded-lg shadow-sm border border-gray-200">
-                        <h3><span data-lucide="heart-pulse" class="text-red-600"></span>Health & Social Implications</h3>
+                        <h3><span data-lucide="heart-pulse" class="text-blue-600"></span>Health & Social Implications</h3>
                         <ul class="list-disc list-inside space-y-2 text-sm md:text-base text-gray-700">
                             <li>The constant threat of violence can force drug use behaviors further underground, increasing the transmission risks for HIV and hepatitis C.</li>
                             <li>It can also trigger or worsen mental health conditions like anxiety, depression, and PTSD.</li>
@@ -196,7 +216,7 @@
                         </ul>
                     </div>
                      <div class="bg-gray-100 p-5 rounded-lg shadow-sm border border-gray-200">
-                         <h3><span data-lucide="clipboard-x" class="text-yellow-600"></span>Policy & Service Gaps</h3>
+                         <h3><span data-lucide="clipboard-x" class="text-indigo-600"></span>Policy & Service Gaps</h3>
                          <ul class="list-disc list-inside space-y-2 text-sm md:text-base text-gray-700">
                             <li>The study underscores the vital need for stable and affordable housing for marginalized groups. Simply targeting "homelessness" doesn't adequately address the acute dangers of sudden eviction.</li>
                             <li>Multi-agency collaboration is crucial—linking housing policy, mental health services, anti-violence interventions, and harm reduction support.</li>
@@ -229,9 +249,39 @@
 
             <section class="border-t border-gray-300 pt-8 mt-10">
                 <h2 class="text-xl font-semibold mb-3 !border-b-0"><span data-lucide="book-marked"></span>Reference</h2>
-                <p class="text-sm text-gray-700 italic bg-gray-100 p-4 rounded-md border border-gray-200">
-                    Kennedy, M. C., McNeil, R., Milloy, M.-J., Dong, H., Kerr, T., & Hayashi, K. (2017). Residential eviction and exposure to violence among people who inject drugs in Vancouver, Canada. <span class="font-medium not-italic text-gray-800">International Journal of Drug Policy, 41</span>, 59–64. <a href="https://doi.org/10.1016/j.drugpo.2016.12.017" class="text-blue-600 hover:underline not-italic" target="_blank" rel="noopener noreferrer">https://doi.org/10.1016/j.drugpo.2016.12.017</a>
-                </p>
+                <div class="bg-gray-100 p-4 rounded-md border border-gray-200">
+                    <p class="text-sm text-gray-700 italic mb-3">
+                        Kennedy, M. C., McNeil, R., Milloy, M.-J., Dong, H., Kerr, T., & Hayashi, K. (2017). Residential eviction and exposure to violence among people who inject drugs in Vancouver, Canada. <span class="font-medium not-italic text-gray-800">International Journal of Drug Policy, 41</span>, 59–64. <a href="https://doi.org/10.1016/j.drugpo.2016.12.017" class="text-blue-600 hover:underline not-italic" target="_blank" rel="noopener noreferrer">https://doi.org/10.1016/j.drugpo.2016.12.017</a>
+                    </p>
+                    <p class="text-sm text-gray-700 italic mb-3">
+                        Munzner, T. (2014). Visualization analysis and design <span class="font-medium not-italic text-gray-800">(1st ed.)</span>. A K Peters/CRC Press.
+                    </p>
+                    <p class="text-sm text-gray-700 italic">
+                        Tufte, E. R. (2001). The visual display of quantitative information <span class="font-medium not-italic text-gray-800">(2nd ed.)</span>. Graphics Press.
+                    </p>
+                </div>
+            </section>
+
+            <!-- DTES Research Access Link -->
+            <section class="mt-8 mb-12">
+                <div class="flex flex-col md:flex-row gap-6 justify-between items-start bg-teal-50 p-6 rounded-xl border border-teal-200 shadow-sm">
+                    <div class="flex-1">
+                        <h3 class="text-lg font-semibold text-teal-800 mb-2 flex items-center">
+                            <span data-lucide="link" class="w-5 h-5 mr-2 text-teal-600"></span><!--
+-->Access the Original Research
+                        </h3>
+                        <p class="text-teal-900 mb-4">
+                            <span class="font-semibold">Residential eviction and exposure to violence among people who inject drugs in Vancouver, Canada</span><br>
+                            <span class="text-sm text-teal-700">Kennedy, Mary Clare; McNeil, Ryan; Milloy, M-J; Dong, Huiru; Kerr, Thomas; Hayashi, Kanna</span><br>
+                            <span class="text-sm text-teal-600">Published: March 31, 2017</span>
+                        </p>
+                        <a href="https://dtesresearchaccess.ubc.ca/object/oc.6311" 
+                           class="inline-flex items-center px-4 py-2 bg-teal-600 text-white rounded-lg hover:bg-teal-700 transition-colors duration-200 text-sm font-medium shadow-sm"
+                           target="_blank" 
+                           rel="noopener noreferrer"><span data-lucide="external-link" class="w-4 h-4 mr-2"></span>View on DTES Research Access Portal
+                        </a>
+                    </div>
+                </div>
             </section>
 
         </main>
