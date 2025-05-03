@@ -95,6 +95,30 @@
             </h1>
             <p class="text-xl text-gray-700">A harsh reality for people who inject drugs in Vancouver, Canada</p>
             <p class="text-sm text-gray-500 mt-2">by Chelsea YU, David WENG, Manyi CHEN</p>
+            <!-- Flex container for citation and button -->
+            <div class="mt-6 mb-8 flex flex-col md:flex-row items-center justify-center gap-8">
+                <!-- Citation Text -->
+                <p class="text-sm text-gray-600 text-left md:w-1/2"> <!-- Adjusted width and text alignment -->
+                    This project is based on the following scholarly article:<br><br>
+                    Kennedy, M. C., McNeil, R., Milloy, M.J., Dong, H., Kerr, T., & Hayashi, K. (2017, March 31). Residential eviction and exposure to violence among people who inject drugs in Vancouver, Canada. <i>International Journal of Drug Policy, 41</i>, 59-64.
+                </p>
+                <!-- Button Section -->
+                 <div class="flex-shrink-0 bg-teal-50 p-6 rounded-xl border border-teal-200 shadow-sm"> <!-- Removed max-w-md, added flex-shrink-0 -->
+                    <h3 class="text-lg font-semibold text-teal-800 mb-3 flex items-center justify-center">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="w-5 h-5 mr-2 text-teal-600"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg>
+                        Access the Original Research
+                    </h3>
+                    <div class="text-center">
+                        <a href="http://dx.doi.org/10.14288/1.0368670"
+                           class="inline-flex items-center px-4 py-2 bg-teal-600 text-white rounded-lg hover:bg-teal-700 transition-colors duration-200 text-sm font-medium shadow-sm"
+                           target="_blank"
+                           rel="noopener noreferrer">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="w-4 h-4 mr-2"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path><polyline points="15 3 21 3 21 9"></polyline><line x1="10" y1="14" x2="21" y2="3"></line></svg>
+                            View Original Article
+                        </a>
+                    </div>
+                </div>
+            </div>
         </header>
 
         <!-- Vancouver Skyline Image -->
@@ -286,9 +310,6 @@
                 <h2 class="text-xl font-semibold mb-3 !border-b-0">Reference</h2>
                 <div class="bg-gray-100 p-4 rounded-md border border-gray-200">
                     <p class="text-sm text-gray-700 italic mb-3">
-                        Kennedy, M. C., McNeil, R., Milloy, M.-J., Dong, H., Kerr, T., & Hayashi, K. (2017). Residential eviction and exposure to violence among people who inject drugs in Vancouver, Canada. <span class="font-medium not-italic text-gray-800">International Journal of Drug Policy, 41</span>, 59–64. <a href="https://doi.org/10.1016/j.drugpo.2016.12.017" class="text-blue-600 hover:underline not-italic" target="_blank" rel="noopener noreferrer">https://doi.org/10.1016/j.drugpo.2016.12.017</a>
-                    </p>
-                    <p class="text-sm text-gray-700 italic mb-3">
                         Lankow, J., & Ritchie, J. (2012). Infographics: The power of visual storytelling. <span class="font-medium not-italic text-gray-800">John Wiley & Sons</span>. <a href="https://ebookcentral.proquest.com/lib/ubc/detail.action?docID=882721" class="text-blue-600 hover:underline not-italic" target="_blank" rel="noopener noreferrer">https://ebookcentral.proquest.com/lib/ubc/detail.action?docID=882721</a>
                     </p>
                     <p class="text-sm text-gray-700 italic mb-3">
@@ -302,31 +323,6 @@
                     </p>
                 </div>
             </section>
-
-            <!-- DTES Research Access Link -->
-            <section class="mt-8 mb-12">
-                <div class="flex flex-col md:flex-row gap-6 justify-between items-start bg-teal-50 p-6 rounded-xl border border-teal-200 shadow-sm">
-                    <div class="flex-1">
-                        <h3 class="text-lg font-semibold text-teal-800 mb-2 flex items-center">
-                            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="w-5 h-5 mr-2 text-teal-600"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg>
-                            Access the Original Research
-                        </h3>
-                        <p class="text-teal-900 mb-4">
-                            <span class="font-semibold">Residential eviction and exposure to violence among people who inject drugs in Vancouver, Canada</span><br>
-                            <span class="text-sm text-teal-700">Kennedy, Mary Clare; McNeil, Ryan; Milloy, M-J; Dong, Huiru; Kerr, Thomas; Hayashi, Kanna</span><br>
-                            <span class="text-sm text-teal-600">Published: March 31, 2017</span>
-                        </p>
-                        <a href="https://dtesresearchaccess.ubc.ca/object/oc.6311" 
-                           class="inline-flex items-center px-4 py-2 bg-teal-600 text-white rounded-lg hover:bg-teal-700 transition-colors duration-200 text-sm font-medium shadow-sm"
-                           target="_blank" 
-                           rel="noopener noreferrer">
-                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="w-4 h-4 mr-2"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path><polyline points="15 3 21 3 21 9"></polyline><line x1="10" y1="14" x2="21" y2="3"></line></svg>
-                            View on DTES Research Access Portal
-                        </a>
-                    </div>
-                </div>
-            </section>
-
         </main>
 
         <footer class="mt-12 text-center text-sm text-gray-600">
