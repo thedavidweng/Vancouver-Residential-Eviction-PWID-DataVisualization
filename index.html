@@ -4,6 +4,14 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Housing Eviction and Violence - Vancouver PWID Study</title>
+    <meta name="description" content="Data visualization exploring the link between residential eviction and violence among people who inject drugs in Vancouver, Canada.">
+    <meta name="keywords" content="Vancouver, PWID, housing eviction, violence, data visualization, drug policy">
+    <meta property="og:title" content="Housing Eviction and Violence - Vancouver PWID Study">
+    <meta property="og:description" content="Exploring the link between residential eviction and violence among people who inject drugs in Vancouver">
+    <meta property="og:type" content="website">
+    <meta name="twitter:card" content="summary_large_image">
+    <link rel="canonical" href="https://thedavidweng.github.io/Vancouver-Residential-Eviction-PWID-DataVisualization/"
+    <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' 'unsafe-inline' https://cdn.tailwindcss.com https://cdn.jsdelivr.net https://public.tableau.com; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com; font-src https://fonts.gstatic.com; img-src 'self' data: https://i.cbc.ca https://public.tableau.com; frame-src https://public.tableau.com;">
     <script src="https://cdn.tailwindcss.com"></script>
     <script src="https://cdn.jsdelivr.net/npm/lucide-static@latest/dist/lucide.min.js"></script>
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -83,11 +91,40 @@
             transform: translateY(-4px);
             box-shadow: 0 10px 15px -3px rgb(0 0 0 / 0.1), 0 4px 6px -4px rgb(0 0 0 / 0.1); /* shadow-lg */
         }
+        /* Focus styles for accessibility */
+        a:focus, button:focus {
+            outline: 2px solid #3b82f6;
+            outline-offset: 2px;
+        }
+        /* Screen reader only class */
+        .sr-only {
+            position: absolute;
+            width: 1px;
+            height: 1px;
+            padding: 0;
+            margin: -1px;
+            overflow: hidden;
+            clip: rect(0, 0, 0, 0);
+            white-space: nowrap;
+            border-width: 0;
+        }
+        .not-sr-only {
+            position: static;
+            width: auto;
+            height: auto;
+            padding: inherit;
+            margin: inherit;
+            overflow: visible;
+            clip: auto;
+            white-space: normal;
+        }
     </style>
 </head>
 <body class="bg-gradient-to-br from-slate-100 to-slate-200 text-gray-800 leading-relaxed">
 
-    <div class="container mx-auto p-6 md:p-12 max-w-4xl">
+    <a href="#main-content" class="sr-only focus:not-sr-only focus:absolute focus:top-2 focus:left-2 focus:z-50 focus:px-4 focus:py-2 focus:bg-white focus:text-blue-600 focus:outline-none focus:ring-2 focus:ring-blue-500 rounded">Skip to main content</a>
+
+    <div class="container mx-auto p-6 md:p-12 max-w-4xl" id="main-content">
 
         <header class="mb-12 text-center">
             <h1 class="text-4xl md:text-5xl font-bold text-gray-900 mb-4 drop-shadow-sm">
@@ -109,7 +146,7 @@
                         Access the Original Research
                     </h3>
                     <div class="text-center">
-                        <a href="http://dx.doi.org/10.14288/1.0368670"
+                        <a href="https://dx.doi.org/10.14288/1.0368670"
                            class="inline-flex items-center px-4 py-2 bg-teal-600 text-white rounded-lg hover:bg-teal-700 transition-colors duration-200 text-sm font-medium shadow-sm"
                            target="_blank"
                            rel="noopener noreferrer">
@@ -128,6 +165,7 @@
                     src="https://i.cbc.ca/1.5171810.1661114769!/fileImage/httpImage/image.jpg_gen/derivatives/16x9_1180/vancouver-skyline-stock-generic.jpg?im=Resize%3D780" 
                     alt="Vancouver skyline showing downtown buildings and mountains in the background" 
                     class="w-full h-auto object-cover"
+                    loading="lazy" decoding="async"
                 />
                 <figcaption class="text-xs text-gray-500 p-3 bg-gray-50 border-t border-gray-200">
                     Vancouver city council approves more compensation for 'renovictions' 
@@ -167,7 +205,7 @@
                     
                     <!-- Figure 1 - 直接融入背景 -->
                     <div class="my-6 text-center">
-                        <img src="Resources/Figure-1.png" alt="Association Between Residential Eviction and Experiencing Violence Stratified by Sex" class="inline-block max-w-full mx-auto" style="max-width: 350px;">
+                        <img src="Resources/Figure-1.png" alt="Association Between Residential Eviction and Experiencing Violence Stratified by Sex" class="inline-block max-w-full mx-auto" style="max-width: 350px;" loading="lazy" decoding="async">
                         <p class="text-xs text-gray-500 mt-2 italic">
                             Association Between Residential Eviction* and Experiencing Violence Stratified by Sex<br>
                             <span class="text-xs">*Refers to 6 month period prior to interview</span>
@@ -205,7 +243,7 @@
                 
                 <!-- Figure 2 -->
                 <div class="my-6 text-center">
-                    <img src="Resources/Figure-2.png" alt="Gender Distribution for Experienced violence" class="inline-block max-w-full mx-auto">
+                    <img src="Resources/Figure-2.png" alt="Gender Distribution for Experienced violence" class="inline-block max-w-full mx-auto" loading="lazy" decoding="async">
                     <p class="text-xs text-gray-500 mt-2 italic">
                         Gender Distribution for Experienced violence*<br>
                         <span class="text-xs">*Refers to 6 month period prior to interview</span>
