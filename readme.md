@@ -6,7 +6,7 @@ This project visualizes the relationship between residential eviction and experi
 ## Key Findings
 - Male PWID who experience housing eviction are 1.95 times more likely to experience violence
 - Female PWID who experience housing eviction are 2.09 times more likely to experience violence
-- Among those who reported violence, 68.82% were male (245 individuals) and 31.18% were female (111 individuals)
+- Among those who reported violence, 68.6% were male (566 individuals) and 31.4% were female (259 individuals)
 
 ## Live Demo
 Access the interactive visualization at: https://thedavidweng.github.io/Vancouver-Residential-Eviction-PWID-DataVisualization/
